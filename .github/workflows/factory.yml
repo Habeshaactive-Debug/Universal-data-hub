@@ -1,0 +1,35 @@
+name: 3-in-1 Data Factory
+on:
+  schedule:
+    - cron: '0 * * * *' # Läuft jede Stunde
+  workflow_dispatch: # Erlaubt uns den manuellen Test am iPad
+
+jobs:
+  run-factory:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Code auschecken
+      uses: actions/checkout@v4
+
+    - name: Python einrichten
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Bibliotheken installieren
+      run: pip install requests
+
+    - name: Daten-Fabrik starten
+      env:
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      run: python fetch_data.py
+
+    - name: Daten auf GitHub speichern
+      run: |
+        git config --global user.name "DataFactoryBot"
+        git config --global user.email "bot@datafactory.com"
+        git add data.json
+        git commit -m "Automated hourly data update" || exit 0
+        git push
