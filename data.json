@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "status": "online",
+        "last_update": "2026-stündlich"
+    },
+    "ai_trends": {
+        "error": "KI-Fehler"
+    },
+    "crypto_markets": {
+        "bitcoin": {
+            "eur": 55832
+        },
+        "ethereum": {
+            "eur": 1507.35
+        },
+        "solana": {
+            "eur": 64.53
+        }
+    },
+    "remote_jobs": {
+        "error": "KI-Fehler"
+    }
+}
