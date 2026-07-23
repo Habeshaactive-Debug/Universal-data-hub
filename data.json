@@ -7,14 +7,14 @@
         "error": "KI-Fehler"
     },
     "crypto_markets": {
-        "bitcoin": {
-            "eur": 57899
-        },
         "ethereum": {
-            "eur": 1694.37
+            "eur": 1680.35
         },
         "solana": {
-            "eur": 68.37
+            "eur": 67.87
+        },
+        "bitcoin": {
+            "eur": 57386
         }
     },
     "remote_jobs": {
