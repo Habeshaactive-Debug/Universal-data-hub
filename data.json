@@ -8,10 +8,10 @@
     },
     "crypto_markets": {
         "bitcoin": {
-            "eur": 57812
+            "eur": 57899
         },
         "ethereum": {
-            "eur": 1695.71
+            "eur": 1694.37
         },
         "solana": {
             "eur": 68.37
