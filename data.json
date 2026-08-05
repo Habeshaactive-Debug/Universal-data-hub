@@ -8,13 +8,13 @@
     },
     "crypto_markets": {
         "bitcoin": {
-            "eur": 56162
+            "eur": 56011
         },
         "ethereum": {
-            "eur": 1660.77
+            "eur": 1654.5
         },
         "solana": {
-            "eur": 64.44
+            "eur": 64.26
         }
     },
     "remote_jobs": {
