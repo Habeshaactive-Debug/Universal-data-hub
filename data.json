@@ -7,14 +7,9 @@
         "error": "KI-Fehler"
     },
     "crypto_markets": {
-        "bitcoin": {
-            "eur": 55543
-        },
-        "ethereum": {
-            "eur": 1627.16
-        },
-        "solana": {
-            "eur": 66.16
+        "status": {
+            "error_code": 429,
+            "error_message": "You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."
         }
     },
     "remote_jobs": {
