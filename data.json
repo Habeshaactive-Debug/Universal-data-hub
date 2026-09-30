@@ -7,7 +7,15 @@
         "error": "KI-Fehler"
     },
     "crypto_markets": {
-        "error": "Krypto-API nicht erreichbar"
+        "bitcoin": {
+            "eur": 73574
+        },
+        "ethereum": {
+            "eur": 2356.8
+        },
+        "solana": {
+            "eur": 105.38
+        }
     },
     "remote_jobs": {
         "error": "KI-Fehler"
